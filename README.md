@@ -1,1 +1,85 @@
-# Java Command-Line Calculator/n/nA simple command-line calculator developed as part of the Veda Technology 45-Day Java Internship./n/n## Features/n/n- Addition/n- Subtraction/n- Multiplication/n- Division/n- Modulus/n- Invalid number validation/n- Division by zero validation/n- Separate methods for each operation/n/n## Technologies Used/n/n- Java/n- JDK/n- Eclipse IDE/n- Git & GitHub/n/n## How to Run/n/n```bash/njavac day01/calculator/Calculator.java/njava day01.calculator.Calculator/n```/n/n## Outcome/n/nBuilt a functional Java command-line calculator and practiced methods, switch statements, and input validation./n
+# Veda Technology Java Internship
+
+A collection of Java programming tasks and projects completed as part of the Veda Technology 45-Day Java Internship.
+
+## Day 1 - Command-Line Calculator
+
+### Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
+- Invalid number validation
+- Division by zero validation
+- Separate methods for operations
+
+### Concepts Practiced
+
+- Scanner
+- Methods
+- Switch statement
+- Input validation
+
+## Day 2 - Student Grade Calculator
+
+### Features
+
+- Accepts marks for multiple subjects
+- Uses arrays to store marks
+- Calculates total marks
+- Calculates percentage
+- Assigns grade based on percentage
+- Validates marks between 0 and 100
+
+### Concepts Practiced
+
+- Arrays
+- Loops
+- Methods
+- Conditional statements
+- Input validation
+
+## Day 3 - Number Guessing Game
+
+### Features
+
+- Generates a random number between 1 and 100
+- Accepts user guesses
+- Gives "Too high" or "Too low" hints
+- Validates guesses between 1 and 100
+- Counts the number of valid attempts
+- Displays the result when the correct number is guessed
+
+### Concepts Practiced
+
+- Random class
+- Scanner
+- While loop
+- If-else statements
+- Input validation
+
+## Technologies Used
+
+- Java
+- JDK
+- Eclipse IDE
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+src/
+├── day01.calculator/
+│   └── Calculator.java
+├── day02.gradecalculator/
+│   └── StudentGradeCalculator.java
+└── day03.numberguessing/
+    └── NumberGuessingGame.java
+```
+    
+## Outcome
+
+Developed practical Java programs and strengthened understanding of Java fundamentals, problem-solving, input validation, arrays, loops, methods, and conditional statements.
