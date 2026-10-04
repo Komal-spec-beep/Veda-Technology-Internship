@@ -98,8 +98,10 @@ src/
 │   └── Calculator.java
 ├── day02.gradecalculator/
 │   └── StudentGradeCalculator.java
-└── day03.numberguessing/
-    └── NumberGuessingGame.java
+├── day03.numberguessing/
+│   └── NumberGuessingGame.java
+└── day04.studentmanagement/
+    └── StudentManagementSystem.java
 ```
     
 ## Outcome
