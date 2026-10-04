@@ -60,6 +60,28 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - If-else statements
 - Input validation
 
+## Day 4 - Student Management System
+
+### Features
+
+- Add new students
+- Search student by ID
+- Update student information
+- Display all students
+- Handles invalid student IDs
+- Limits the system to 5 students
+- Handles student limit validation
+
+### Concepts Practiced
+
+- Arrays
+- Methods
+- Loops
+- Switch statement
+- Conditional statements
+- Linear search
+- Input validation
+
 ## Technologies Used
 
 - Java
