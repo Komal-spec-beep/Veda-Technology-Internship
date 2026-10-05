@@ -82,6 +82,25 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Linear search
 - Input validation
 
+## Day 5 - Multiplication Table Generator
+
+### Features
+
+- Generates a multiplication table for a single number
+- Generates multiplication tables for a range of numbers
+- Provides formatted table output
+- Uses separate methods for table generation
+- Uses nested loops for range-based table generation
+
+### Concepts Practiced
+
+- Scanner
+- Methods
+- For loops
+- Nested loops
+- If-else statements
+- Input handling
+
 ## Technologies Used
 
 - Java
@@ -100,8 +119,10 @@ src/
 │   └── StudentGradeCalculator.java
 ├── day03.numberguessing/
 │   └── NumberGuessingGame.java
-└── day04.studentmanagement/
-    └── StudentManagementSystem.java
+├── day04.studentmanagement/
+│   └── StudentManagementSystem.java
+└── day05.multiplicationtable/
+    └── MultiplicationTableGenerator.java
 ```
     
 ## Outcome
