@@ -101,6 +101,24 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - If-else statements
 - Input handling
 
+## Day 6 - Palindrome Checker
+### Features
+- Checks whether a string is a palindrome
+- Checks whether a number is a palindrome
+- Performs case-insensitive string checking
+- Reverses strings using StringBuilder
+- Reverses numbers using mathematical logic
+- Displays whether the input is a palindrome or not
+
+### Concepts Practiced
+- String handling
+- StringBuilder
+- Scanner
+- While loop
+- If-else statements
+- Number reversal
+- String comparison using equals()
+
 ## Technologies Used
 
 - Java
@@ -121,8 +139,11 @@ src/
 │   └── NumberGuessingGame.java
 ├── day04.studentmanagement/
 │   └── StudentManagementSystem.java
-└── day05.multiplicationtable/
-    └── MultiplicationTableGenerator.java
+├── day05.multiplicationtable/
+│   └── MultiplicationTableGenerator.java
+└── day06.palindrome/
+    └── PalindromeChecker.java
+    
 ```
     
 ## Outcome
