@@ -119,6 +119,23 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Number reversal
 - String comparison using equals()
 
+## Day 7 - Prime Number Analysis
+### Features
+- Checks whether a number is prime
+- Generates prime numbers within a specified range
+- Performs range-based prime number analysis
+- Handles numbers less than 2
+- Uses an optimized prime-checking approach
+
+### Concepts Practiced
+- Methods
+- For loops
+- If-else statements
+- Modulus operator
+- Mathematical logic
+- Boolean return values
+- Algorithm optimization
+
 ## Technologies Used
 
 - Java
@@ -126,6 +143,8 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Eclipse IDE
 - Git
 - GitHub
+
+## Project Structure
 
 ## Project Structure
 
@@ -141,8 +160,10 @@ src/
 │   └── StudentManagementSystem.java
 ├── day05.multiplicationtable/
 │   └── MultiplicationTableGenerator.java
-└── day06.palindrome/
-    └── PalindromeChecker.java
+├── day06.palindrome/
+│   └── PalindromeChecker.java
+└── day07.primeanalysis/
+    └── PrimeNumberAnalysis.java
     
 ```
     
