@@ -162,6 +162,26 @@ A collection of Java programming tasks and projects completed as part of the Ved
 * State management
 * Conditional logic
 
+### Day 9: Simple Banking Account Class
+
+**Concepts Covered:**
+
+* Classes and Objects
+* Constructors
+* Encapsulation using private fields
+* Getters and Methods
+* Deposit and Withdrawal Operations
+* Input Validation and Insufficient Balance Handling
+
+**Features:**
+
+* Stores account number, account holder name, and balance.
+* Initializes account details using a constructor.
+* Deposits valid amounts into the account.
+* Withdraws money when the balance is sufficient.
+* Rejects invalid deposit amounts and withdrawals exceeding the available balance.
+* Displays account details and the current balance.
+
 ## Technologies Used
 
 - Java
@@ -173,23 +193,26 @@ A collection of Java programming tasks and projects completed as part of the Ved
 ## Project Structure
 
 ```text
-src/ 
-├── day01.calculator/ 
-│  └── Calculator.java 
-├── day02.gradecalculator/ 
-│  └── StudentGradeCalculator.java 
-├── day03.numberguessing/ 
-│  └── NumberGuessingGame.java 
-├── day04.studentmanagement/ 
-│  └── StudentManagementSystem.java 
-├── day05.multiplicationtable/ 
-│  └── MultiplicationTableGenerator.java 
-├── day06.palindrome/ 
-│  └── PalindromeChecker.java 
-├── day07.primeanalysis/ 
-│  └── PrimeNumberAnalysis.java 
-└── day08.atm/ 
-│ 	└── ATMSimulation.java 
+src/
+├── day01/
+│   └── calculator/
+├── day02/
+│   └── gradecalculator/
+├── day03/
+│   └── numberguessing/
+├── day04/
+│   └── studentmanagement/
+├── day05/
+│   └── multiplicationtable/
+├── day06/
+│   └── palindrome/
+├── day07/
+│   └── primeanalysis/
+├── day08/
+│   └── atm/
+├── day09/
+│    └── bankingaccount/
+│        └── BankAccount.java
 ├── .gitignore 
 └── README.md
 ```
