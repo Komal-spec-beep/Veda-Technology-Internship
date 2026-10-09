@@ -136,6 +136,32 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Boolean return values
 - Algorithm optimization
 
+## Day 8 - Simple ATM Simulation
+
+### Features
+
+* PIN authentication with a maximum of 3 attempts
+* Checks the current account balance
+* Allows users to deposit money
+* Allows users to withdraw money
+* Prevents withdrawals exceeding the available balance
+* Validates invalid deposit and withdrawal amounts
+* Handles invalid menu choices
+* Provides a menu-driven console interface
+
+### Concepts Practiced
+
+* Methods
+* Static variables
+* Final variables
+* While loops
+* Switch statements
+* If-else statements
+* User input using Scanner
+* Input validation
+* State management
+* Conditional logic
+
 ## Technologies Used
 
 - Java
@@ -146,25 +172,26 @@ A collection of Java programming tasks and projects completed as part of the Ved
 
 ## Project Structure
 
-## Project Structure
-
 ```text
-src/
-├── day01.calculator/
-│   └── Calculator.java
-├── day02.gradecalculator/
-│   └── StudentGradeCalculator.java
-├── day03.numberguessing/
-│   └── NumberGuessingGame.java
-├── day04.studentmanagement/
-│   └── StudentManagementSystem.java
-├── day05.multiplicationtable/
-│   └── MultiplicationTableGenerator.java
-├── day06.palindrome/
-│   └── PalindromeChecker.java
-└── day07.primeanalysis/
-    └── PrimeNumberAnalysis.java
-    
+src/ 
+├── day01.calculator/ 
+│  └── Calculator.java 
+├── day02.gradecalculator/ 
+│  └── StudentGradeCalculator.java 
+├── day03.numberguessing/ 
+│  └── NumberGuessingGame.java 
+├── day04.studentmanagement/ 
+│  └── StudentManagementSystem.java 
+├── day05.multiplicationtable/ 
+│  └── MultiplicationTableGenerator.java 
+├── day06.palindrome/ 
+│  └── PalindromeChecker.java 
+├── day07.primeanalysis/ 
+│  └── PrimeNumberAnalysis.java 
+└── day08.atm/ 
+│ 	└── ATMSimulation.java 
+├── .gitignore 
+└── README.md
 ```
     
 ## Outcome
