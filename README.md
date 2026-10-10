@@ -182,6 +182,68 @@ A collection of Java programming tasks and projects completed as part of the Ved
 * Rejects invalid deposit amounts and withdrawals exceeding the available balance.
 * Displays account details and the current balance.
 
+### Day 10: Constructor Overloading
+
+**Features:**
+- Create student objects using different constructors.
+- Initialize student details using name, age, and course.
+- Display student information.
+
+**Concepts Practiced:**
+- Constructors in Java
+- Constructor overloading
+- Object creation and initialization
+- `this` keyword
+- Default values of instance variables## Project Structure
+
+```text
+Veda-Technology-Internship/
+│
+├── src/
+│   ├── day01/
+│   │   └── calculator/
+│   │       └── Calculator.java
+│   │
+│   ├── day02/
+│   │   └── gradecalculator/
+│   │       └── StudentGradeCalculator.java
+│   │
+│   ├── day03/
+│   │   └── numberguessing/
+│   │       └── NumberGuessingGame.java
+│   │
+│   ├── day04/
+│   │   └── studentmanagement/
+│   │       └── StudentManagementSystem.java
+│   │
+│   ├── day05/
+│   │   └── multiplicationtable/
+│   │       └── MultiplicationTableGenerator.java
+│   │
+│   ├── day06/
+│   │   └── palindrome/
+│   │       └── PalindromeChecker.java
+│   │
+│   ├── day07/
+│   │   └── primeanalysis/
+│   │       └── PrimeNumberAnalysis.java
+│   │
+│   ├── day08/
+│   │   └── atm/
+│   │       └── ATMSimulation.java
+│   │
+│   ├── day09/
+│   │   └── bankingaccount/
+│   │       └── BankAccount.java
+│   │
+│   └── day10/
+│       └── constructoroverloading/
+│           └── Student.java
+│
+├── README.md
+└── .gitignore
+```
+
 ## Technologies Used
 
 - Java
