@@ -196,54 +196,6 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - `this` keyword
 - Default values of instance variables## Project Structure
 
-```text
-Veda-Technology-Internship/
-│
-├── src/
-│   ├── day01/
-│   │   └── calculator/
-│   │       └── Calculator.java
-│   │
-│   ├── day02/
-│   │   └── gradecalculator/
-│   │       └── StudentGradeCalculator.java
-│   │
-│   ├── day03/
-│   │   └── numberguessing/
-│   │       └── NumberGuessingGame.java
-│   │
-│   ├── day04/
-│   │   └── studentmanagement/
-│   │       └── StudentManagementSystem.java
-│   │
-│   ├── day05/
-│   │   └── multiplicationtable/
-│   │       └── MultiplicationTableGenerator.java
-│   │
-│   ├── day06/
-│   │   └── palindrome/
-│   │       └── PalindromeChecker.java
-│   │
-│   ├── day07/
-│   │   └── primeanalysis/
-│   │       └── PrimeNumberAnalysis.java
-│   │
-│   ├── day08/
-│   │   └── atm/
-│   │       └── ATMSimulation.java
-│   │
-│   ├── day09/
-│   │   └── bankingaccount/
-│   │       └── BankAccount.java
-│   │
-│   └── day10/
-│       └── constructoroverloading/
-│           └── Student.java
-│
-├── README.md
-└── .gitignore
-```
-
 ## Technologies Used
 
 - Java
@@ -255,26 +207,38 @@ Veda-Technology-Internship/
 ## Project Structure
 
 ```text
+```text
 src/
 ├── day01/
 │   └── calculator/
+│       └── Calculator.java
 ├── day02/
 │   └── gradecalculator/
+│       └── StudentGradeCalculator.java
 ├── day03/
 │   └── numberguessing/
+│       └── NumberGuessingGame.java
 ├── day04/
 │   └── studentmanagement/
+│       └── StudentManagementSystem.java
 ├── day05/
 │   └── multiplicationtable/
+│       └── MultiplicationTableGenerator.java
 ├── day06/
 │   └── palindrome/
+│       └── PalindromeChecker.java
 ├── day07/
 │   └── primeanalysis/
+│       └── PrimeNumberAnalysis.java
 ├── day08/
 │   └── atm/
+│       └── ATMSimulation.java
 ├── day09/
-│    └── bankingaccount/
-│        └── BankAccount.java
+│   └── bankingaccount/
+│       └── BankAccount.java
+├──  day10/
+│    └── constructoroverloading/
+│       └── Student.java
 ├── .gitignore 
 └── README.md
 ```
