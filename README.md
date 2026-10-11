@@ -162,9 +162,9 @@ A collection of Java programming tasks and projects completed as part of the Ved
 * State management
 * Conditional logic
 
-### Day 9: Simple Banking Account Class
+## Day 9: Simple Banking Account Class
 
-**Concepts Covered:**
+###Concepts Covered:
 
 * Classes and Objects
 * Constructors
@@ -173,7 +173,7 @@ A collection of Java programming tasks and projects completed as part of the Ved
 * Deposit and Withdrawal Operations
 * Input Validation and Insufficient Balance Handling
 
-**Features:**
+###Features:
 
 * Stores account number, account holder name, and balance.
 * Initializes account details using a constructor.
@@ -182,19 +182,44 @@ A collection of Java programming tasks and projects completed as part of the Ved
 * Rejects invalid deposit amounts and withdrawals exceeding the available balance.
 * Displays account details and the current balance.
 
-### Day 10: Constructor Overloading
+## Day 10: Constructor Overloading
 
-**Features:**
+###Features:
 - Create student objects using different constructors.
 - Initialize student details using name, age, and course.
 - Display student information.
 
-**Concepts Practiced:**
+###Concepts Practiced:
 - Constructors in Java
 - Constructor overloading
 - Object creation and initialization
 - `this` keyword
 - Default values of instance variables## Project Structure
+
+
+## Day 11: Employee Management System
+
+### Features
+- Add new employees
+- Display all employees
+- Search employees by ID
+- Update employee salary
+- Validate salary to prevent invalid values
+- Prevent duplicate employee IDs
+- Handles employee limit validation
+
+### Concepts Practiced
+- Classes and Objects
+- Constructors
+- Encapsulation using private fields
+- Getters and Setters
+- Arrays
+- Loops
+- Switch statement
+- Linear search
+- Input validation
+- Object-Oriented Programming
+
 
 ## Technologies Used
 
@@ -204,45 +229,50 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Git
 - GitHub
 
+
 ## Project Structure
 
 ```text
-```text
-src/
-├── day01/
-│   └── calculator/
-│       └── Calculator.java
-├── day02/
-│   └── gradecalculator/
-│       └── StudentGradeCalculator.java
-├── day03/
-│   └── numberguessing/
-│       └── NumberGuessingGame.java
-├── day04/
-│   └── studentmanagement/
-│       └── StudentManagementSystem.java
-├── day05/
-│   └── multiplicationtable/
-│       └── MultiplicationTableGenerator.java
-├── day06/
-│   └── palindrome/
-│       └── PalindromeChecker.java
-├── day07/
-│   └── primeanalysis/
-│       └── PrimeNumberAnalysis.java
-├── day08/
-│   └── atm/
-│       └── ATMSimulation.java
-├── day09/
-│   └── bankingaccount/
-│       └── BankAccount.java
-├──  day10/
-│    └── constructoroverloading/
-│       └── Student.java
-├── .gitignore 
+Veda-Technology-Internship/
+├── src/
+│   ├── day01/
+│   │   └── calculator/
+│   │       └── Calculator.java
+│   ├── day02/
+│   │   └── gradecalculator/
+│   │       └── StudentGradeCalculator.java
+│   ├── day03/
+│   │   └── numberguessing/
+│   │       └── NumberGuessingGame.java
+│   ├── day04/
+│   │   └── studentmanagement/
+│   │       └── StudentManagementSystem.java
+│   ├── day05/
+│   │   └── multiplicationtable/
+│   │       └── MultiplicationTableGenerator.java
+│   ├── day06/
+│   │   └── palindrome/
+│   │       └── PalindromeChecker.java
+│   ├── day07/
+│   │   └── primeanalysis/
+│   │       └── PrimeNumberAnalysis.java
+│   ├── day08/
+│   │   └── atm/
+│   │       └── ATMSimulation.java
+│   ├── day09/
+│   │   └── bankingaccount/
+│   │       └── BankAccount.java
+│   ├── day10/
+│   │   └── constructoroverloading/
+│   │       └── Student.java
+│   └── day11/
+│       └── employeemanagement/
+│           ├── Employee.java
+│           └── EmployeeManagementSystem.java
+├── .gitignore
 └── README.md
-```
     
+```
 ## Outcome
 
 Developed practical Java programs and strengthened understanding of Java fundamentals, problem-solving, input validation, arrays, loops, methods, and conditional statements.
