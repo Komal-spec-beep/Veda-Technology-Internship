@@ -220,6 +220,46 @@ A collection of Java programming tasks and projects completed as part of the Ved
 - Input validation
 - Object-Oriented Programming
 
+##Day 12 - Employee Hierarchy Using Inheritance
+
+###Features
+
+- Created a parent Employee class with employee ID, name, and salary.
+
+- Created Developer, Manager, and Intern classes that inherit from Employee.
+
+- Used constructors to initialize employee details.
+
+- Used the super() keyword to call the parent class constructor.
+
+- Displayed employee details using getter methods.
+
+- Implemented separate work() methods for each employee type.
+
+- Demonstrated inheritance using objects of child classes.
+
+###Concepts Practiced
+
+- Inheritance
+
+- Parent and Child Classes
+
+- Constructors
+
+- super() Keyword
+
+- Encapsulation
+
+- Private Data Members
+
+- Getter Methods
+
+- Method Implementation
+
+- Object Creation
+
+- Access Modifiers
+
 
 ## Technologies Used
 
@@ -265,10 +305,17 @@ Veda-Technology-Internship/
 │   ├── day10/
 │   │   └── constructoroverloading/
 │   │       └── Student.java
-│   └── day11/
-│       └── employeemanagement/
-│           ├── Employee.java
-│           └── EmployeeManagementSystem.java
+│   ├── day11/
+│   │    └── employeemanagement/ 
+│   │        ├── Employee.java
+│   │        └── EmployeeManagementSystem.java
+│   └── day12/
+│        └── employeehierarchy/
+│            ├── Employee.java
+│            ├── Developer.java
+│            ├── Manager.java
+│            ├── Intern.java
+│            └── Main.java
 ├── .gitignore
 └── README.md
     
