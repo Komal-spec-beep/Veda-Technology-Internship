@@ -260,6 +260,40 @@ A collection of Java programming tasks and projects completed as part of the Ved
 
 - Access Modifiers
 
+##Day 13 - Runtime Polymorphism in Java
+
+###Features
+
+- Created an Employee parent class with a common work() method.
+
+- Created Developer, Manager, and Intern child classes using inheritance.
+
+- Overrode the work() method in each child class.
+
+- Used the @Override annotation to demonstrate method overriding.
+
+- Used parent class references to hold child class objects.
+
+- Demonstrated runtime polymorphism through different method outputs.
+
+###Concepts Practiced
+
+- Inheritance
+
+- Method Overriding
+
+- @Override Annotation
+
+- Runtime Polymorphism
+
+- Parent Class Reference
+
+- Child Class Objects
+
+- Dynamic Method Dispatch
+
+- Object-Oriented Programming (OOP)
+
 
 ## Technologies Used
 
@@ -273,53 +307,74 @@ A collection of Java programming tasks and projects completed as part of the Ved
 ## Project Structure
 
 ```text
+## Project Structure
+
+```text
 Veda-Technology-Internship/
-├── src/
-│   ├── day01/
-│   │   └── calculator/
-│   │       └── Calculator.java
-│   ├── day02/
-│   │   └── gradecalculator/
-│   │       └── StudentGradeCalculator.java
-│   ├── day03/
-│   │   └── numberguessing/
-│   │       └── NumberGuessingGame.java
-│   ├── day04/
-│   │   └── studentmanagement/
-│   │       └── StudentManagementSystem.java
-│   ├── day05/
-│   │   └── multiplicationtable/
-│   │       └── MultiplicationTableGenerator.java
-│   ├── day06/
-│   │   └── palindrome/
-│   │       └── PalindromeChecker.java
-│   ├── day07/
-│   │   └── primeanalysis/
-│   │       └── PrimeNumberAnalysis.java
-│   ├── day08/
-│   │   └── atm/
-│   │       └── ATMSimulation.java
-│   ├── day09/
-│   │   └── bankingaccount/
-│   │       └── BankAccount.java
-│   ├── day10/
-│   │   └── constructoroverloading/
-│   │       └── Student.java
-│   ├── day11/
-│   │    └── employeemanagement/ 
-│   │        ├── Employee.java
-│   │        └── EmployeeManagementSystem.java
-│   └── day12/
-│        └── employeehierarchy/
-│            ├── Employee.java
-│            ├── Developer.java
-│            ├── Manager.java
-│            ├── Intern.java
-│            └── Main.java
+│
+├── README.md
 ├── .gitignore
-└── README.md
-    
+│
+└── src/
+    │
+    ├── day01/
+    │   └── calculator/
+    │       └── Calculator.java
+    │
+    ├── day02/
+    │   └── studentgradecalculator/
+    │       └── StudentGradeCalculator.java
+    │
+    ├── day03/
+    │   └── numberguessing/
+    │       └── NumberGuessingGame.java
+    │
+    ├── day04/
+    │   └── studentmanagement/
+    │       └── StudentManagementSystem.java
+    │
+    ├── day05/
+    │   └── [Day 5 package and Java files]
+    │
+    ├── day06/
+    │   └── [Day 6 package and Java files]
+    │
+    ├── day07/
+    │   └── [Day 7 package and Java files]
+    │
+    ├── day08/
+    │   └── [Day 8 package and Java files]
+    │
+    ├── day09/
+    │   └── [Day 9 package and Java files]
+    │
+    ├── day10/
+    │   └── [Day 10 package and Java files]
+    │
+    ├── day11/
+    │   └── employeemanagement/
+    │       ├── Employee.java
+    │       └── EmployeeManagementSystem.java
+    │
+    ├── day12/
+    │   └── employeehierarchy/
+    │       ├── Employee.java
+    │       ├── Developer.java
+    │       ├── Manager.java
+    │       ├── Intern.java
+    │       └── Main.java
+    │
+    └── day13/
+        └── runtimepolymorphism/
+            ├── Employee.java
+            ├── Developer.java
+            ├── Manager.java
+            ├── Intern.java
+            └── Main.java
 ```
+
+    
+
 ## Outcome
 
 Developed practical Java programs and strengthened understanding of Java fundamentals, problem-solving, input validation, arrays, loops, methods, and conditional statements.
