@@ -294,6 +294,32 @@ A collection of Java programming tasks and projects completed as part of the Ved
 
 - Object-Oriented Programming (OOP)
 
+##Day 14 - Shape Calculator Using Abstraction
+
+###Features
+
+- Calculates the area and perimeter of a Circle.
+
+- Calculates the area and perimeter of a Rectangle.
+
+- Calculates the area and perimeter of a Triangle.
+
+- Uses an abstract Shape class as a common blueprint for all shapes.
+
+###Concepts Practiced
+
+- Abstract Classes and Abstract Methods
+
+- Inheritance using extends
+
+- Method Overriding using @Override
+
+- Constructors and this keyword
+
+- Returning values using return
+
+- Mathematical calculations using Math.PI
+
 
 ## Technologies Used
 
@@ -364,12 +390,19 @@ Veda-Technology-Internship/
     │       ├── Intern.java
     │       └── Main.java
     │
-    └── day13/
-        └── runtimepolymorphism/
-            ├── Employee.java
-            ├── Developer.java
-            ├── Manager.java
-            ├── Intern.java
+    ├── day13/
+    │   └── runtimepolymorphism/
+    │       ├── Employee.java
+    │       ├── Developer.java
+    │       ├── Manager.java
+    │       ├── Intern.java
+    │       └── Main.java
+    └── day14/
+        └── shapecalculator/
+            ├── Shape.java
+            ├── Circle.java
+            ├── Rectangle.java
+            ├── Triangle.java
             └── Main.java
 ```
 
