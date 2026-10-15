@@ -320,6 +320,28 @@ A collection of Java programming tasks and projects completed as part of the Ved
 
 - Mathematical calculations using Math.PI
 
+##Day 15 - Payment System Using Interfaces
+
+###Features
+
+- Supports Card, Wallet, and UPI payment methods.
+
+- Accepts a payment amount through the pay() method.
+
+- Displays the payment method and amount.
+
+###Concepts Practiced
+
+- Java Interfaces
+
+- implements keyword
+
+- Method Overriding
+
+- Classes and Objects
+
+- Method Parameters
+
 
 ## Technologies Used
 
@@ -397,13 +419,20 @@ Veda-Technology-Internship/
     │       ├── Manager.java
     │       ├── Intern.java
     │       └── Main.java
-    └── day14/
-        └── shapecalculator/
-            ├── Shape.java
-            ├── Circle.java
-            ├── Rectangle.java
-            ├── Triangle.java
-            └── Main.java
+    ├── day14/
+    │    └── shapecalculator/
+    │       ├── Shape.java
+    │       ├── Circle.java
+    │       ├── Rectangle.java
+    │       ├── Triangle.java
+    │       └── Main.java
+    └── day15/
+        └── paymentsystem/
+           ├── Payment.java
+           ├── CardPayment.java
+           ├── WalletPayment.java
+           ├── UpiPayment.java
+           └── Main.java
 ```
 
     
