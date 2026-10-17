@@ -342,6 +342,62 @@ A collection of Java programming tasks and projects completed as part of the Ved
 
 - Method Parameters
 
+##Day 16 – Library Management System
+
+###Project Overview
+
+The Library Management System is a beginner-friendly Java console application that helps manage books and display member details. It uses Java Collections to store and manage book and member objects.
+
+###Features
+
+- Display all books
+
+- Search for a book by ID
+
+- Add a new book
+
+- Issue a book
+
+- Return a book
+
+- Calculate overdue days using a simplified 14-day rule
+
+- Display member details
+
+- Menu-driven interface
+
+###Concepts Practiced
+
+- Classes and objects
+
+- Constructors and this keyword
+
+- ArrayList and Collections
+
+- for-each loop
+
+- if-else statements
+
+- switch statement
+
+- do-while loop
+
+- Methods for list operations such as add() and size()
+
+- Book search by ID
+
+- Basic issue and return functionality
+
+###Current Limitations
+
+- Data is stored in memory and resets when the program restarts.
+
+- Overdue calculation uses manually entered days and a simplified 14-day rule.
+
+- Book issue records are not linked to specific members.
+
+- Book and member data are not stored in a database.
+
 
 ## Technologies Used
 
@@ -426,13 +482,18 @@ Veda-Technology-Internship/
     │       ├── Rectangle.java
     │       ├── Triangle.java
     │       └── Main.java
-    └── day15/
-        └── paymentsystem/
-           ├── Payment.java
-           ├── CardPayment.java
-           ├── WalletPayment.java
-           ├── UpiPayment.java
-           └── Main.java
+    ├── day15/
+    │    └── paymentsystem/
+    │       ├── Payment.java
+    │       ├── CardPayment.java
+    │       ├── WalletPayment.java
+    │       ├── UpiPayment.java
+    │       └── Main.java
+    └──day16/
+        └── librarymanagement/
+            ├── Book.java
+            ├── Member.java
+            └── Main.java
 ```
 
     
