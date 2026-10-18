@@ -438,6 +438,41 @@ Developed a console-based Inventory Management System using Java to manage produ
 
 - Boolean variables and break
 
+##Day 18: Employee Lookup System (Java)
+
+###Description:
+Developed a console-based Employee Lookup System using Java's HashMap to manage employee records through employee IDs and names.
+
+###Features:
+
+- Add new employee records
+
+- Search employees by ID
+
+- Update employee names
+
+- Delete employee records
+
+- Display all employee records
+
+- Menu-driven interface with an exit option
+
+- Prevent duplicate employee IDs
+
+###Concepts Learned:
+
+- Java HashMap
+
+- Key-value pairs
+
+- put(), get(), containsKey(), and remove()
+
+- Scanner for user input
+
+- do-while loop and switch statement
+
+- Conditional statements and input handling
+
 
 ## Technologies Used
 
@@ -534,10 +569,13 @@ Veda-Technology-Internship/
     │        ├── Book.java
     │        ├── Member.java
     │        └── Main.java
-    └── day17/
-        └── inventory/
-            ├── Product.java
-            └── InventoryManagementSystem.java
+    ├──day17/
+    │    └── inventory/
+    │        ├── Product.java
+    │        └── InventoryManagementSystem.java
+    └── day18/
+       └── employeelookup/
+           └── EmployeeLookupSystem.java
 ```
 
     
