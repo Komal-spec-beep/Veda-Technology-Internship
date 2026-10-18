@@ -398,6 +398,46 @@ The Library Management System is a beginner-friendly Java console application th
 
 - Book and member data are not stored in a database.
 
+##Day 17: Inventory Management System in Java
+
+###Project Overview
+
+Developed a console-based Inventory Management System using Java to manage product details and perform basic inventory operations.
+
+###Features
+
+- Add Product: Add a new product with its ID, name, and price.
+
+- Search Product: Find a product using its ID.
+
+- Update Product: Modify an existing product's name and price.
+
+- Delete Product: Remove a product from the inventory.
+
+- Display All Products: View all available products.
+
+- Menu-Driven Interface: Select operations through a numbered menu.
+
+- Input Validation: Handle invalid menu input.
+
+###Concepts Practiced
+
+- Object-Oriented Programming (OOP)
+
+- Classes, objects, and constructors
+
+- ArrayList for storing products
+
+- Scanner for user input
+
+- For-each and traditional for loops
+
+- if-else and switch statements
+
+- do-while loop
+
+- Boolean variables and break
+
 
 ## Technologies Used
 
@@ -489,11 +529,15 @@ Veda-Technology-Internship/
     │       ├── WalletPayment.java
     │       ├── UpiPayment.java
     │       └── Main.java
-    └──day16/
-        └── librarymanagement/
-            ├── Book.java
-            ├── Member.java
-            └── Main.java
+    ├──day16/
+    │    └── librarymanagement/
+    │        ├── Book.java
+    │        ├── Member.java
+    │        └── Main.java
+    └── day17/
+        └── inventory/
+            ├── Product.java
+            └── InventoryManagementSystem.java
 ```
 
     
