@@ -473,6 +473,37 @@ Developed a console-based Employee Lookup System using Java's HashMap to manage 
 
 - Conditional statements and input handling
 
+##Day 19: Unique Email Registry (Java)
+
+###Description:
+Developed a console-based Email Registry using Java's HashSet to store unique email addresses.
+
+###Features:
+
+- Register email addresses
+
+- Prevent duplicate entries
+
+- Remove registered emails
+
+- Display all registered emails
+
+- Menu-driven interface with an exit option
+
+###Concepts Learned:
+
+- Java HashSet
+
+- Unique elements and duplicate handling
+
+- add(), remove(), and isEmpty()
+
+- Scanner for user input
+
+- do-while loop and switch statement
+
+- Enhanced for loop
+
 
 ## Technologies Used
 
@@ -573,9 +604,12 @@ Veda-Technology-Internship/
     │    └── inventory/
     │        ├── Product.java
     │        └── InventoryManagementSystem.java
-    └── day18/
-       └── employeelookup/
-           └── EmployeeLookupSystem.java
+    ├── day18/
+    │   └── employeelookup/
+    │       └── EmployeeLookupSystem.java
+    └── day19/
+        └── emailregistry/
+            └── EmailRegistry.java
 ```
 
     
