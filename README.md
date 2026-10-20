@@ -504,6 +504,43 @@ Developed a console-based Email Registry using Java's HashSet to store unique em
 
 - Enhanced for loop
 
+##Day 20: Customer Support Queue
+
+**Project:** Customer Support Queue Management System
+
+###Description:
+A Java-based program that manages customer support tickets using a Queue and tracks their status using a HashMap.
+
+###Key Concepts Learned:
+
+**Queue:** Stores customer support tickets.
+
+**FIFO:** First In, First Out — the first ticket added is processed first.
+
+**ArrayDeque:** Implements the Queue interface.
+
+**HashMap:** Stores ticket statuses as key-value pairs.
+
+**offer():** Adds a ticket to the queue.
+
+**poll():** Removes and retrieves the first ticket.
+
+**isEmpty():** Checks whether the queue is empty.
+
+**while loop:** Processes tickets until the queue becomes empty.
+
+###Features:
+
+- Add multiple customer support tickets.
+
+- Display the current queue.
+
+- Process tickets in FIFO order.
+
+- Update ticket status from Pending to Completed.
+
+- Display the remaining queue after processing.
+
 
 ## Technologies Used
 
@@ -607,9 +644,12 @@ Veda-Technology-Internship/
     ├── day18/
     │   └── employeelookup/
     │       └── EmployeeLookupSystem.java
-    └── day19/
-        └── emailregistry/
-            └── EmailRegistry.java
+    ├── day19/
+    │    └── emailregistry/
+    │        └── EmailRegistry.java
+    └── day20/
+        └── customersupport/
+            └── CustomerSupportQueue.java
 ```
 
     
