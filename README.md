@@ -541,6 +541,29 @@ A Java-based program that manages customer support tickets using a Queue and tra
 
 - Display the remaining queue after processing.
 
+## Day 21: Stack-Based Undo System
+
+**Project:** Stack-Based Undo System
+
+**Description:**
+
+A Java-based text editor simulation that uses a stack to store previous text states and restore them through Undo operations.
+
+**Key Concepts Learned:**
+- **Deque and ArrayDeque:** Used to implement a stack.
+- **LIFO:** Last In, First Out.
+- **push():** Saves the previous text state.
+- **pop():** Retrieves and removes the most recently saved state.
+- **isEmpty():** Checks whether the stack is empty.
+- **while loop and switch:** Manage repeated menu operations.
+
+**Features:**
+- Edit text multiple times.
+- Undo previous text changes.
+- Support multiple Undo operations.
+- Display a message when no more Undo operations are available.
+- Exit through a menu option.
+
 
 ## Technologies Used
 
@@ -647,9 +670,12 @@ Veda-Technology-Internship/
     ├── day19/
     │    └── emailregistry/
     │        └── EmailRegistry.java
-    └── day20/
-        └── customersupport/
-            └── CustomerSupportQueue.java
+    ├── day20/
+    │    └── customersupport/
+    │        └── CustomerSupportQueue.java
+    └── day21/
+        └── undostack/
+            └── StackBasedUndoSystem.java
 ```
 
     
