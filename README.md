@@ -564,6 +564,31 @@ A Java-based text editor simulation that uses a stack to store previous text sta
 - Display a message when no more Undo operations are available.
 - Exit through a menu option.
 
+# Day 22: Banking & Account Management System
+
+## Description
+A simple banking application that allows users to deposit money, withdraw money, and check their account balance. It demonstrates custom exception handling and input validation.
+
+## Features
+- Deposit money with amount validation
+- Withdraw money with balance validation
+- Check current account balance
+- Handle insufficient balance using a custom exception
+- Validate invalid menu inputs
+- Display error messages for invalid amounts
+- Menu-driven banking interface
+
+## Concepts Practiced
+- Custom Exception Handling
+- `try-catch` block
+- `throw` and `throws` keywords
+- Creating custom exception classes
+- Methods and method parameters
+- `switch` statement
+- `while` loop
+- Input validation using `Scanner`
+- `break` and `return` statements
+- Static variables and methods
 
 ## Technologies Used
 
@@ -673,9 +698,14 @@ Veda-Technology-Internship/
     ├── day20/
     │    └── customersupport/
     │        └── CustomerSupportQueue.java
-    └── day21/
-        └── undostack/
-            └── StackBasedUndoSystem.java
+    ├── day21/
+    │    └── undostack/
+    │        └── StackBasedUndoSystem.java
+    │        
+    └── day22/
+        └── customexception/
+            ├── BankingSystem.java
+            └── InsufficientBalanceException.java
 ```
 
     
