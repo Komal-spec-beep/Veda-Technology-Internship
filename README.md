@@ -590,6 +590,32 @@ A simple banking application that allows users to deposit money, withdraw money,
 - `break` and `return` statements
 - Static variables and methods
 
+# Day 23: File-Based Student Record System
+
+## Description
+A Java-based application that stores student records in a text file. It allows users to add, read, search, and update student information using file handling.
+
+## Features
+- Add new student records
+- Prevent duplicate student IDs
+- Display all student records
+- Search students by ID
+- Update student names and marks
+- Validate student input and marks
+- Store records permanently in a text file
+- Handle file-related errors
+
+## Concepts Practiced
+- File Handling (File I/O)
+- FileReader and FileWriter
+- BufferedReader and BufferedWriter
+- Try-with-resources
+- Exception Handling
+- IOException and NumberFormatException
+- Methods and switch statements
+- Loops and input validation
+- Reading, writing, searching, and updating records
+
 ## Technologies Used
 
 - Java
@@ -693,19 +719,22 @@ Veda-Technology-Internship/
     │   └── employeelookup/
     │       └── EmployeeLookupSystem.java
     ├── day19/
-    │    └── emailregistry/
-    │        └── EmailRegistry.java
+    │   └── emailregistry/
+    │       └── EmailRegistry.java
     ├── day20/
-    │    └── customersupport/
-    │        └── CustomerSupportQueue.java
+    │   └── customersupport/
+    │       └── CustomerSupportQueue.java
     ├── day21/
-    │    └── undostack/
-    │        └── StackBasedUndoSystem.java
+    │   └── undostack/
+    │       └── StackBasedUndoSystem.java
     │        
-    └── day22/
-        └── customexception/
-            ├── BankingSystem.java
-            └── InsufficientBalanceException.java
+    ├── day22/
+    │   └── customexception/
+    │       ├── BankingSystem.java
+    │       └── InsufficientBalanceException.java
+    └── day23/
+       └── filerecord/
+           └── StudentRecordSystem.java
 ```
 
     
