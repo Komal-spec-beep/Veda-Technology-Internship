@@ -616,6 +616,33 @@ A Java-based application that stores student records in a text file. It allows u
 - Loops and input validation
 - Reading, writing, searching, and updating records
 
+# Day 24: CSV Employee Data Processor
+
+## Description
+A Java application that reads employee records from a CSV file, validates the data, calculates salary statistics, and saves valid records to an output CSV file.
+
+## Features
+- Read employee data from a CSV file
+- Validate employee records
+- Detect missing fields and invalid salaries
+- Identify duplicate employee IDs
+- Skip invalid records without stopping the program
+- Calculate total and average salary
+- Generate a processed CSV file
+- Handle file-related errors
+
+## Concepts Practiced
+- CSV File Processing
+- File I/O
+- FileReader and FileWriter
+- BufferedReader and BufferedWriter
+- Try-with-resources
+- Exception Handling
+- NumberFormatException
+- HashSet and duplicate detection
+- Loops and conditional statements
+- Data validation and statistics calculation
+
 ## Technologies Used
 
 - Java
