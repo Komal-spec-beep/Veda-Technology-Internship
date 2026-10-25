@@ -1,0 +1,10 @@
+===== Log File Analysis Report =====
+Total lines: 8
+INFO messages: 3
+WARNING messages: 2
+ERROR messages: 2
+Invalid lines: 1
+
+===== Error Details =====
+2026-10-25 10:02:00 ERROR Database connection failed
+2026-10-25 10:04:00 ERROR File not found

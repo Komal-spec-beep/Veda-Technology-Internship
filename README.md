@@ -643,6 +643,28 @@ A Java application that reads employee records from a CSV file, validates the da
 - Loops and conditional statements
 - Data validation and statistics calculation
 
+# Day 25: Log File Analyzer
+
+## Description
+A Java application that reads log files, identifies log levels, counts messages, and generates an analysis report.
+
+## Features
+- Read log files line by line
+- Count INFO, WARNING, and ERROR messages
+- Identify invalid log entries
+- Display error details
+- Generate a text report
+- Handle file-related errors
+
+## Concepts Practiced
+- Java File Handling
+- BufferedReader and BufferedWriter
+- String methods
+- HashMap and ArrayList
+- Loops and conditional statements
+- Exception Handling
+- Report Generation
+
 ## Technologies Used
 
 - Java
@@ -663,8 +685,12 @@ Veda-Technology-Internship/
 ├── README.md
 ├── .gitignore
 │
+├── application.log
+├── log_report.txt
+├── employees.csv
+├── processed_employees.csv
+│
 └── src/
-    │
     ├── day01/
     │   └── calculator/
     │       └── Calculator.java
@@ -719,50 +745,66 @@ Veda-Technology-Internship/
     │       ├── Manager.java
     │       ├── Intern.java
     │       └── Main.java
+    │
     ├── day14/
-    │    └── shapecalculator/
+    │   └── shapecalculator/
     │       ├── Shape.java
     │       ├── Circle.java
     │       ├── Rectangle.java
     │       ├── Triangle.java
     │       └── Main.java
+    │
     ├── day15/
-    │    └── paymentsystem/
+    │   └── paymentsystem/
     │       ├── Payment.java
     │       ├── CardPayment.java
     │       ├── WalletPayment.java
     │       ├── UpiPayment.java
     │       └── Main.java
-    ├──day16/
-    │    └── librarymanagement/
-    │        ├── Book.java
-    │        ├── Member.java
-    │        └── Main.java
-    ├──day17/
-    │    └── inventory/
-    │        ├── Product.java
-    │        └── InventoryManagementSystem.java
+    │
+    ├── day16/
+    │   └── librarymanagement/
+    │       ├── Book.java
+    │       ├── Member.java
+    │       └── Main.java
+    │
+    ├── day17/
+    │   └── inventory/
+    │       ├── Product.java
+    │       └── InventoryManagementSystem.java
+    │
     ├── day18/
     │   └── employeelookup/
     │       └── EmployeeLookupSystem.java
+    │
     ├── day19/
     │   └── emailregistry/
     │       └── EmailRegistry.java
+    │
     ├── day20/
     │   └── customersupport/
     │       └── CustomerSupportQueue.java
+    │
     ├── day21/
     │   └── undostack/
     │       └── StackBasedUndoSystem.java
-    │        
+    │
     ├── day22/
     │   └── customexception/
     │       ├── BankingSystem.java
     │       └── InsufficientBalanceException.java
-    └── day23/
-       └── filerecord/
-           └── StudentRecordSystem.java
-```
+    │
+    ├── day23/
+    │   └── filerecord/
+    │       └── StudentRecordSystem.java
+    │
+    ├── day24/
+    │   └── csvprocessor/
+    │       └── CSVEmployeeDataProcessor.java
+    │
+    └── day25/
+        └── loganalyzer/
+            └── LogFileAnalyzer.java```
 
     
 
