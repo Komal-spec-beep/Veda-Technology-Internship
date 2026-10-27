@@ -665,6 +665,38 @@ A Java application that reads log files, identifies log levels, counts messages,
 - Exception Handling
 - Report Generation
 
+# Day 27: Thread-Safe Counter
+
+## Objective
+To understand race conditions in multithreading and implement thread-safe counters using `synchronized` and `AtomicInteger`.
+
+## Concepts Used
+- Multithreading
+- Race Condition
+- Thread Synchronization
+- `synchronized` Keyword
+- `AtomicInteger`
+- Thread `start()` and `join()` Methods
+
+## Features
+- Demonstrates a race condition using an unsafe counter.
+- Implements a thread-safe counter using `synchronized`.
+- Implements a thread-safe counter using `AtomicInteger`.
+- Runs two threads, each performing 100,000 increments.
+- Compares the final count of all three approaches.
+
+## Sample Output
+
+Expected Count: 200000
+
+Synchronized Count: 200000
+
+AtomicInteger Count: 200000
+
+Unsafe Counter: 159059
+
+**Note:** The unsafe counter's actual value may vary on each run because of race conditions. It may occasionally reach 200000 as well.
+
 ## Technologies Used
 
 - Java
@@ -802,9 +834,13 @@ Veda-Technology-Internship/
     │   └── csvprocessor/
     │       └── CSVEmployeeDataProcessor.java
     │
-    └── day25/
-        └── loganalyzer/
-            └── LogFileAnalyzer.java```
+    ├── day25/
+    │    └── loganalyzer/
+    │        └── LogFileAnalyzer.java
+    └── day27/
+    	 └── threadsafecounter/
+        	  └── ThreadSafeCounter.java
+            ```
 
     
 
