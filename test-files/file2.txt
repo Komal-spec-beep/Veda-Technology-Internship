@@ -1,0 +1,3 @@
+I am practicing Java threads.
+ExecutorService manages a pool of threads.
+I enjoy learning programming.

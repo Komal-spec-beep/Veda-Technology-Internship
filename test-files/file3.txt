@@ -1,0 +1,3 @@
+Thread safety is important in Java.
+Multithreading allows concurrent execution.
+Learning Java step by step is helpful.

@@ -697,6 +697,33 @@ Unsafe Counter: 159059
 
 **Note:** The unsafe counter's actual value may vary on each run because of race conditions. It may occasionally reach 200000 as well.
 
+# Day 28: Multithreaded File Search Tool
+
+## Objective
+To search for a keyword in multiple text files using single-threaded and multithreaded approaches and compare their execution times.
+
+## Concepts Used
+- Java Multithreading
+- File I/O
+- ExecutorService
+- Fixed Thread Pool
+- Keyword Searching
+- Execution Time Measurement
+- Exception Handling
+
+## Features
+- Searches for a keyword in multiple `.txt` files.
+- Performs case-insensitive searching.
+- Displays the file name, line number, and matching line.
+- Compares single-threaded and multithreaded search.
+- Measures execution time for both approaches.
+
+## Sample Output
+
+```text
+Single-threaded Search Time: 50 ms
+Multithreaded Search Time: 15 ms
+
 ## Technologies Used
 
 - Java
@@ -721,6 +748,10 @@ Veda-Technology-Internship/
 ├── log_report.txt
 ├── employees.csv
 ├── processed_employees.csv
+├── test-files/
+│   ├── file1.txt
+│   ├── file2.txt
+│   └── file3.txt
 │
 └── src/
     ├── day01/
@@ -837,9 +868,12 @@ Veda-Technology-Internship/
     ├── day25/
     │    └── loganalyzer/
     │        └── LogFileAnalyzer.java
-    └── day27/
-    	 └── threadsafecounter/
-        	  └── ThreadSafeCounter.java
+    ├── day27/
+    │	 └── threadsafecounter/
+    │    	  └── ThreadSafeCounter.java
+    └── day28/
+       └── multithreadedfilesearch/
+           └── MultithreadedFileSearch.java
             ```
 
     
