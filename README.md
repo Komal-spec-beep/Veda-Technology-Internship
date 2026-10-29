@@ -724,6 +724,36 @@ To search for a keyword in multiple text files using single-threaded and multith
 Single-threaded Search Time: 50 ms
 Multithreaded Search Time: 15 ms
 
+```
+# Day 29: Generic Data Repository
+
+## Objective
+To build a reusable Java repository using Generics to store, retrieve, update, and delete data.
+
+## Concepts Used
+- Java Generics (`<T>`)
+- ArrayList
+- CRUD Operations
+- Type Safety
+- Code Reusability
+
+## Features
+- Adds items to a generic repository.
+- Retrieves all stored items.
+- Deletes existing items.
+- Updates existing items.
+- Supports String and Integer data types.
+
+## Sample Output
+
+
+[Java, Python, C Programming]
+Deleted: true
+[Java, C Programming]
+Updated: true
+[Core Java, C Programming]
+[10, 20, 30]
+
 ## Technologies Used
 
 - Java
@@ -733,9 +763,6 @@ Multithreaded Search Time: 15 ms
 - GitHub
 
 
-## Project Structure
-
-```text
 ## Project Structure
 
 ```text
@@ -871,13 +898,16 @@ Veda-Technology-Internship/
     ├── day27/
     │	 └── threadsafecounter/
     │    	  └── ThreadSafeCounter.java
-    └── day28/
-       └── multithreadedfilesearch/
-           └── MultithreadedFileSearch.java
+    ├── day28/
+    │    └── multithreadedfilesearch/
+    │       └── MultithreadedFileSearch.java
+    └── day29/
+   		└── genericrepository/
+       		└── GenericRepository.java
             ```
 
     
-
+```
 ## Outcome
 
 Developed practical Java programs and strengthened understanding of Java fundamentals, problem-solving, input validation, arrays, loops, methods, and conditional statements.
