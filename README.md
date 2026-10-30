@@ -754,6 +754,42 @@ Updated: true
 [Core Java, C Programming]
 [10, 20, 30]
 
+# Day 30: Process Employee Data Using Java Streams
+
+## Objective
+To process employee data using Java Streams and perform filtering, sorting, grouping, and aggregation operations.
+
+## Concepts Used
+- Java Streams
+- Lambda Expressions
+- Stream API
+- filter() and map()
+- Sorting using Comparator
+- groupingBy()
+- Aggregation Operations
+- Method References
+
+## Features
+- Displays all employee records.
+- Filters employees based on salary.
+- Sorts employees by salary in descending order.
+- Converts employee names to uppercase.
+- Groups employees by department.
+- Counts employees in each department.
+- Calculates average and total salary.
+- Finds the highest-paid employee.
+- Generates an employee data report.
+
+## Sample Output
+
+```text
+Total Employees: 7
+Employees with Salary Above 40000: 4
+Average Salary: 45000.0
+Total Salary: 315000.0
+
+Highest Paid Employee:
+ID: 106, Name: Anjali, Department: Finance, Salary: 60000.0
 ## Technologies Used
 
 - Java
@@ -762,7 +798,7 @@ Updated: true
 - Git
 - GitHub
 
-
+```
 ## Project Structure
 
 ```text
@@ -900,10 +936,14 @@ Veda-Technology-Internship/
     │    	  └── ThreadSafeCounter.java
     ├── day28/
     │    └── multithreadedfilesearch/
-    │       └── MultithreadedFileSearch.java
-    └── day29/
-   		└── genericrepository/
-       		└── GenericRepository.java
+    │       	└── MultithreadedFileSearch.java
+    ├── day29/
+    │	  └── genericrepository/
+    │   		└── GenericRepository.java
+    └── day30/
+    	  └── employeedata/
+        		├── Employee.java
+        		└── EmployeeDataProcessor.java
             ```
 
     
