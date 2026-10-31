@@ -790,6 +790,37 @@ Total Salary: 315000.0
 
 Highest Paid Employee:
 ID: 106, Name: Anjali, Department: Finance, Salary: 60000.0
+
+```
+# Day 31 - Employee Analytics System Using Streams
+
+## Description
+A Java-based Employee Analytics System that uses the Stream API to analyze employee records and generate useful salary and department statistics.
+
+## Features
+- Display all employee records.
+- Calculate overall average salary.
+- Find the highest-paid employee.
+- Group employees by department.
+- Count employees in each department.
+- Calculate department-wise average salary.
+- Rank employees by salary in descending order.
+- Generate an employee analytics summary.
+
+## Concepts Practiced
+- Java Classes and Objects
+- ArrayList and List
+- Java Stream API
+- Lambda Expressions
+- Method References
+- Comparator
+- Sorting and Filtering
+- Collectors
+- groupingBy()
+- counting()
+- averagingDouble()
+- Map and List
+
 ## Technologies Used
 
 - Java
@@ -798,7 +829,7 @@ ID: 106, Name: Anjali, Department: Finance, Salary: 60000.0
 - Git
 - GitHub
 
-```
+
 ## Project Structure
 
 ```text
@@ -940,10 +971,14 @@ Veda-Technology-Internship/
     ├── day29/
     │	  └── genericrepository/
     │   		└── GenericRepository.java
-    └── day30/
-    	  └── employeedata/
-        		├── Employee.java
-        		└── EmployeeDataProcessor.java
+    ├── day30/
+    │	  └── employeedata/
+    │    		├── Employee.java
+    │    		└── EmployeeDataProcessor.java
+    └── day31/
+       └── employeeanalytics/
+            ├── Employee.java
+            └── Main.java
             ```
 
     
