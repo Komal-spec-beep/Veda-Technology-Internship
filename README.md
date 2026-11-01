@@ -821,6 +821,42 @@ A Java-based Employee Analytics System that uses the Stream API to analyze emplo
 - averagingDouble()
 - Map and List
 
+## Day 32 – Student Grade Management System
+
+### Project Description
+A Java-based console application to manage student records, update student details, calculate grades, and analyze student performance.
+
+### Features
+- Add new student records.
+- Display all student records.
+- Search students using Student ID.
+- Update student name, subject, and marks.
+- Delete student records.
+- Calculate total marks and percentage.
+- Generate grades based on marks.
+- Generate performance summary.
+- Validate user inputs.
+- Prevent duplicate Student IDs.
+
+### Concepts Practiced
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Getters and Setters
+- ArrayList
+- Scanner Class
+- Enhanced For Loop
+- Conditional Statements
+- Switch Case
+- Methods
+- Return Statements
+- Input Validation
+- Exception Handling
+- CRUD Operations
+
+### Learning Outcome
+Practiced Object-Oriented Programming, ArrayList operations, CRUD functionality, input validation, exception handling, and basic student performance analysis using Java.
+
 ## Technologies Used
 
 - Java
@@ -975,10 +1011,14 @@ Veda-Technology-Internship/
     │	  └── employeedata/
     │    		├── Employee.java
     │    		└── EmployeeDataProcessor.java
-    └── day31/
-       └── employeeanalytics/
-            ├── Employee.java
-            └── Main.java
+    ├── day31/
+    │   └── employeeanalytics/
+    │        ├── Employee.java
+    │        └── Main.java
+    └── day32/
+        └── studentgrademanagement/
+             ├── Student.java
+             └── Main.java
             ```
 
     
