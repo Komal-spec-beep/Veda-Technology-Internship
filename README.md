@@ -857,6 +857,39 @@ A Java-based console application to manage student records, update student detai
 ### Learning Outcome
 Practiced Object-Oriented Programming, ArrayList operations, CRUD functionality, input validation, exception handling, and basic student performance analysis using Java.
 
+# Day 33 – Student Grade Management System
+
+## Project Overview
+This project is a menu-driven Student Grade Management System developed using Java. It allows users to manage student records, handle multiple subjects, calculate academic results, and generate performance summaries.
+
+## Features
+- Add new student records with multiple subjects.
+- Display all student records.
+- Search students using Student ID.
+- Update student name.
+- Add new subjects to existing students.
+- Update subject marks.
+- Delete student records.
+- Calculate total marks, percentage, and grades.
+- Generate performance summary.
+- Validate user input and handle invalid choices.
+- Handle empty student records.
+
+## Concepts Practiced
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Encapsulation
+- ArrayList
+- ArrayList of Objects
+- Constructors and Methods
+- Getters and Setters
+- Scanner Class
+- Conditional Statements
+- Loops
+- Input Validation
+- Exception Handling
+- Menu-Driven Programming
+
 ## Technologies Used
 
 - Java
@@ -1015,10 +1048,12 @@ Veda-Technology-Internship/
     │   └── employeeanalytics/
     │        ├── Employee.java
     │        └── Main.java
-    └── day32/
-        └── studentgrademanagement/
-             ├── Student.java
-             └── Main.java
+    ├── day32/
+    │    └── studentgrademanagement/
+    │         ├── Student.java
+    │         └── Main.java
+    └── day33/
+    	  └── studentgrademanagement/				├── Student.java				├── Subject.java				├── Grade.java				└── Main.java
             ```
 
     
