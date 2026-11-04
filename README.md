@@ -890,6 +890,42 @@ This project is a menu-driven Student Grade Management System developed using Ja
 - Exception Handling
 - Menu-Driven Programming
 
+# Day 35 – Business & Service Management System
+
+## Project Overview
+This project is a Java-based Business and Service Management System developed as part of the Veda Technology Internship. It provides a basic structure to manage training programs, internship programs, services, customers, inquiries, and service requests.
+
+## Features
+- Add and display training programs.
+- Add and display internship programs.
+- Manage business services.
+- Add and display customer records.
+- Add and display customer inquiries.
+- Update inquiry status.
+- Add and display service requests.
+- Update service request status.
+- Search records by ID and name.
+- Search records using partial names.
+- Generate a basic management report.
+- Handle invalid menu choices and missing records.
+
+## Concepts Practiced
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Inheritance
+- Encapsulation
+- Method Overriding
+- Constructors
+- Getters and Setters
+- ArrayList and Collections
+- ArrayList of Objects
+- Searching and Filtering
+- Conditional Statements
+- Loops
+- Exception Handling
+- Menu-Driven Programming
+- Modular Programming
+
 ## Technologies Used
 
 - Java
@@ -1052,8 +1088,23 @@ Veda-Technology-Internship/
     │    └── studentgrademanagement/
     │         ├── Student.java
     │         └── Main.java
-    └── day33/
-    	  └── studentgrademanagement/				├── Student.java				├── Subject.java				├── Grade.java				└── Main.java
+    ├── day33/
+    │	  └── studentgrademanagement/
+    │			├── Student.java
+    │			├── Subject.java
+    │			├── Grade.java
+    │			└── Main.java
+    └── day35/
+        └── businessservicemanagement/
+            ├── Program.java
+            ├── TrainingProgram.java
+            ├── InternshipProgram.java
+            ├── Customer.java
+            ├── Inquiry.java
+            ├── Service.java
+            ├── ServiceRequest.java
+            ├── BusinessManagementSystem.java
+            └── Main.java
             ```
 
     
