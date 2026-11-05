@@ -926,6 +926,43 @@ This project is a Java-based Business and Service Management System developed as
 - Menu-Driven Programming
 - Modular Programming
 
+# Day 36 – Business & Service Management System
+
+## Project Overview
+This project is a menu-driven Business and Service Management System developed using Java. It manages training programs, internship programs, services, customers, inquiries, and service requests.
+
+## Features
+- Add and display training programs.
+- Add and display internship programs.
+- Add and display services.
+- Manage customer records.
+- Add and display customer inquiries.
+- Update inquiry status.
+- Manage service requests.
+- Update service request status.
+- Search records using different options.
+- Search customers, services, and programs by name.
+- Filter inquiries by status.
+- Filter service requests by status.
+- Filter services by category.
+- Generate management reports.
+- Validate user input and handle invalid entries.
+
+## Concepts Practiced
+- Object-Oriented Programming (OOP)
+- Inheritance
+- Encapsulation
+- Classes and Objects
+- ArrayList Collections
+- Constructors and Methods
+- Getters and Setters
+- Method Overriding
+- Exception Handling
+- Loops and Conditional Statements
+- Searching and Filtering
+- Modular Programming
+- Menu-Driven Application
+
 ## Technologies Used
 
 - Java

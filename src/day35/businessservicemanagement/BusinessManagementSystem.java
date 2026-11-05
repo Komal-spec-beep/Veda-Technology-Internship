@@ -188,6 +188,62 @@ public class BusinessManagementSystem {
 	    System.out.println("Service Requests: " + serviceRequests.size());
 	}
 	
+	// Filter Inquiries by Status
+	public void filterInquiriesByStatus(String status) {
+
+	    boolean found = false;
+
+	    for (Inquiry inquiry : inquiries) {
+
+	    	if (status.equalsIgnoreCase(inquiry.getStatus())) {
+	            System.out.println(inquiry);
+	            found = true;
+	        }
+	    }
+
+	    if (!found) {
+	        System.out.println("No inquiries found with status: " + status);
+	    }
+	}
+
+
+	// Filter Service Requests by Status
+	public void filterServiceRequestsByStatus(String status) {
+
+	    boolean found = false;
+
+	    for (ServiceRequest request : serviceRequests) {
+
+	    	if (status.equalsIgnoreCase(request.getStatus())) {
+	            System.out.println(request);
+	            found = true;
+	        }
+	    }
+
+	    if (!found) {
+	        System.out.println("No service requests found with status: " + status);
+	    }
+	}
+
+
+	// Filter Services by Category
+	public void filterServicesByCategory(String category) {
+
+	    boolean found = false;
+
+	    for (Service service : services) {
+
+	    	if (category.equalsIgnoreCase(service.getCategory())) {
+	            System.out.println(service);
+	            found = true;
+	        }
+	    }
+
+	    if (!found) {
+	        System.out.println("No services found in category: " + category);
+	    }
+	}
+	
 	private ArrayList<Program> programs = new ArrayList<>();
 	private ArrayList<Service> services = new ArrayList<>();
 	private ArrayList<Customer> customers = new ArrayList<>();

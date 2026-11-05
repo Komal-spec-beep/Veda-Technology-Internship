@@ -6,15 +6,19 @@ public class Service {
 	private String serviceName;
 	private String description;
 	private double price;
+	private String category;
 	
 	@Override
 	public String toString() {
-		return "Service [serviceId=" + serviceId + ", serviceName=" + serviceName + ", description=" + description
-				+ ", price=" + price + "]";
+	    return "Service [serviceId=" + serviceId + "," + 
+	    		" serviceName=" + serviceName + "," + 
+	    		" description=" + description + "," + 
+	    		" price=" + price + "," + 
+	    		" category=" + category + "]";
 	}
 
 	public int getServiceId() {
-		return serviceId;
+		return serviceId; 
 	}
 
 	public void setServiceId(int serviceId) {
@@ -40,17 +44,27 @@ public class Service {
 	public double getPrice() {
 		return price;
 	}
+	
+	public String getCategory() {
+	    return category;
+	}
 
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	
+	public void setCategory(String category) {
+	    this.category = category;
+	}
 
-	public Service(int serviceId, String serviceName, String description, double price) {
-		super();
-		this.serviceId = serviceId;
-		this.serviceName = serviceName;
-		this.description = description;
-		this.price = price;
+	public Service(int serviceId, String serviceName, String description,
+	        double price, String category) {
+
+	    this.serviceId = serviceId;
+	    this.serviceName = serviceName;
+	    this.description = description;
+	    this.price = price;
+	    this.category = category;
 	}
 	
 }

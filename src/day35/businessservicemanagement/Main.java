@@ -30,7 +30,10 @@ public class Main {
             System.out.println("13. Update Service Request Status");
             System.out.println("14. Search Records");
             System.out.println("15. Generate Report");
-            System.out.println("16. Exit");
+            System.out.println("17. Filter Inquiries by Status");
+            System.out.println("18. Filter Service Requests by Status");
+            System.out.println("19. Filter Services by Category");
+            System.out.println("20. Exit");
 
             choice = readInt("Enter your choice: ");
 
@@ -96,15 +99,30 @@ public class Main {
                     system.generateReport();
                     break;
 
-                case 16:
+                case 20:
                     System.out.println("Thank you for using the system!");
+                    break;
+                    
+                case 17:
+                    String inquiryStatus = readText("Enter inquiry status: ");
+                    system.filterInquiriesByStatus(inquiryStatus);
+                    break;
+
+                case 18:
+                    String requestStatus = readText("Enter service request status: ");
+                    system.filterServiceRequestsByStatus(requestStatus);
+                    break;
+
+                case 19:
+                    String category = readText("Enter service category: ");
+                    system.filterServicesByCategory(category);
                     break;
 
                 default:
                     System.out.println("Invalid choice! Please try again.");
             }
 
-        } while (choice != 16);
+        } while (choice != 20);
 
         sc.close();
     }
@@ -146,8 +164,9 @@ public class Main {
         String name = readText("Enter service name: ");
         String description = readText("Enter description: ");
         double price = readDouble("Enter price: ");
+        String category = readText("Enter service category: ");
 
-        Service service = new Service(id, name, description, price);
+        Service service = new Service(id, name, description, price, category);
 
         system.addService(service);
     }
