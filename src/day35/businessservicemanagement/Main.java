@@ -30,6 +30,7 @@ public class Main {
             System.out.println("13. Update Service Request Status");
             System.out.println("14. Search Records");
             System.out.println("15. Generate Report");
+            System.out.println("16. Display Dashboard");
             System.out.println("17. Filter Inquiries by Status");
             System.out.println("18. Filter Service Requests by Status");
             System.out.println("19. Filter Services by Category");
@@ -98,9 +99,9 @@ public class Main {
                 case 15:
                     system.generateReport();
                     break;
-
-                case 20:
-                    System.out.println("Thank you for using the system!");
+                    
+                case 16:
+                    system.displayDashboard();
                     break;
                     
                 case 17:
@@ -116,6 +117,10 @@ public class Main {
                 case 19:
                     String category = readText("Enter service category: ");
                     system.filterServicesByCategory(category);
+                    break;
+
+                case 20:
+                    System.out.println("Thank you for using the system!");
                     break;
 
                 default:
@@ -180,8 +185,12 @@ public class Main {
         String phone = readText("Enter phone: ");
 
         Customer customer = new Customer(id, name, email, phone);
-
-        system.addCustomer(customer);
+        
+        if(phone.matches("[0-9]{10}")) {
+        	system.addCustomer(customer);
+        } else {
+        	System.out.println("Invalid phone number! Enter exactly 10 digits.");
+        }
     }
 
     // Add Inquiry
@@ -218,7 +227,7 @@ public class Main {
         if (updated) {
             System.out.println("Inquiry status updated successfully!");
         } else {
-            System.out.println("Inquiry not found!");
+            System.out.println("Invalid Inquiry ID or Status!");
         }
     }
 
@@ -264,7 +273,7 @@ public class Main {
         if (updated) {
             System.out.println("Service request status updated successfully!");
         } else {
-            System.out.println("Service request not found!");
+            System.out.println("Invalid Service Request ID or Status!");
         }
     }
 
@@ -402,7 +411,14 @@ public class Main {
         while (true) {
             try {
                 System.out.print(message);
-                return Integer.parseInt(sc.nextLine().trim());
+                int value = Integer.parseInt(sc.nextLine().trim());
+
+                if (value > 0) {
+                    return value;
+                }
+
+                System.out.println("Please enter a positive integer!");
+
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid integer!");
             }
@@ -415,7 +431,14 @@ public class Main {
         while (true) {
             try {
                 System.out.print(message);
-                return Double.parseDouble(sc.nextLine().trim());
+                double value = Double.parseDouble(sc.nextLine().trim());
+
+                if (Double.isFinite(value) && value >= 0) {
+                    return value;
+                }
+
+                System.out.println("Please enter a valid non-negative number!");
+
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid number!");
             }

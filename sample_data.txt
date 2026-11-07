@@ -1,0 +1,72 @@
+========================================
+ BUSINESS & SERVICE MANAGEMENT SYSTEM
+       SAMPLE SYNTHETIC DATASET
+========================================
+
+CUSTOMERS
+----------------------------------------
+Customer ID: 22
+Name: Raj
+Email: raj@gmail.com
+Phone: 7482389389
+
+Customer ID: 23
+Name: Aman
+Email: aman@gmail.com
+Phone: 9876543210
+
+
+SERVICES
+----------------------------------------
+Service ID: 1
+Name: Software Testing
+Description: Software Testing Service
+Price: 5000
+Category: Testing
+
+Service ID: 2
+Name: Web Development
+Description: Website Development Service
+Price: 15000
+Category: Development
+
+
+TRAINING PROGRAMS
+----------------------------------------
+Program Name: Java Programming
+Fee: 5000
+Duration: 3 Months
+
+Program Name: Web Development
+Fee: 7000
+Duration: 4 Months
+
+
+INQUIRIES
+----------------------------------------
+Inquiry ID: 301
+Customer ID: 22
+Message: Inquiry about Java training
+Inquiry Date: 6 Nov 2026
+Status: Pending
+
+Inquiry ID: 302
+Customer ID: 23
+Message: Inquiry about web development
+Inquiry Date: 7 Nov 2026
+Status: In Progress
+
+
+SERVICE REQUESTS
+----------------------------------------
+Request ID: 401
+Customer ID: 22
+Service ID: 1
+Request Date: 6 Nov 2026
+Status: Pending
+
+Request ID: 402
+Customer ID: 23
+Service ID: 2
+Request Date: 7 Nov 2026
+Status: Completed

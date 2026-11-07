@@ -890,76 +890,74 @@ This project is a menu-driven Student Grade Management System developed using Ja
 - Exception Handling
 - Menu-Driven Programming
 
-# Day 35 – Business & Service Management System
+# Day 35-38 Business & Service Management System
 
 ## Project Overview
-This project is a Java-based Business and Service Management System developed as part of the Veda Technology Internship. It provides a basic structure to manage training programs, internship programs, services, customers, inquiries, and service requests.
+The Business & Service Management System is a menu-driven Java application developed to manage business programs, services, customers, inquiries, and service requests.
+
+This project was developed over four days as part of the Veda Technology Internship (Day 35–38). It focuses on Object-Oriented Programming, data management, searching, filtering, reporting, and input validation.
 
 ## Features
+
+### 1. Program Management
 - Add and display training programs.
 - Add and display internship programs.
-- Manage business services.
+- Manage program details such as name, fee, and duration.
+
+### 2. Service Management
+- Add and display services.
+- Search services by ID and name.
+- Filter services by category.
+- Manage service details, including description and price.
+
+### 3. Customer Management
 - Add and display customer records.
+- Search customers by ID and name.
+- Prevent duplicate customer records.
+- Validate phone numbers.
+- Manage customer information such as name, email, and phone.
+
+### 4. Inquiry Management
 - Add and display customer inquiries.
+- Search inquiries by ID.
 - Update inquiry status.
+- Filter inquiries by status.
+- Validate inquiry statuses.
+
+### 5. Service Request Management
 - Add and display service requests.
+- Search service requests by ID.
 - Update service request status.
-- Search records by ID and name.
-- Search records using partial names.
-- Generate a basic management report.
-- Handle invalid menu choices and missing records.
+- Filter service requests by status.
+- Validate service request statuses.
+
+### 6. Searching, Filtering and Reporting
+- Search records using different options.
+- Filter records based on status and category.
+- Generate basic management reports.
+- Display dashboard information.
+
+### 7. Input Validation and Exception Handling
+- Handle invalid integer inputs.
+- Validate customer phone numbers.
+- Validate inquiry and service request statuses.
+- Handle missing customer and service records.
+- Prevent duplicate records.
+- Display appropriate error messages.
 
 ## Concepts Practiced
 - Object-Oriented Programming (OOP)
 - Classes and Objects
 - Inheritance
 - Encapsulation
-- Method Overriding
 - Constructors
 - Getters and Setters
-- ArrayList and Collections
-- ArrayList of Objects
-- Searching and Filtering
-- Conditional Statements
-- Loops
-- Exception Handling
-- Menu-Driven Programming
-- Modular Programming
-
-# Day 36 – Business & Service Management System
-
-## Project Overview
-This project is a menu-driven Business and Service Management System developed using Java. It manages training programs, internship programs, services, customers, inquiries, and service requests.
-
-## Features
-- Add and display training programs.
-- Add and display internship programs.
-- Add and display services.
-- Manage customer records.
-- Add and display customer inquiries.
-- Update inquiry status.
-- Manage service requests.
-- Update service request status.
-- Search records using different options.
-- Search customers, services, and programs by name.
-- Filter inquiries by status.
-- Filter service requests by status.
-- Filter services by category.
-- Generate management reports.
-- Validate user input and handle invalid entries.
-
-## Concepts Practiced
-- Object-Oriented Programming (OOP)
-- Inheritance
-- Encapsulation
-- Classes and Objects
-- ArrayList Collections
-- Constructors and Methods
-- Getters and Setters
 - Method Overriding
-- Exception Handling
-- Loops and Conditional Statements
+- ArrayList Collections
 - Searching and Filtering
+- Exception Handling
+- Input Validation
+- Conditional Statements and Loops
 - Modular Programming
 - Menu-Driven Application
 
@@ -980,6 +978,7 @@ Veda-Technology-Internship/
 ├── README.md
 ├── .gitignore
 │
+├── sample_data.txt
 ├── application.log
 ├── log_report.txt
 ├── employees.csv
@@ -1007,22 +1006,28 @@ Veda-Technology-Internship/
     │       └── StudentManagementSystem.java
     │
     ├── day05/
-    │   └── [Day 5 package and Java files]
+    │   └── day05.multiplicationtable
+    │			└── MultiplicationTableGenerator.java
     │
     ├── day06/
-    │   └── [Day 6 package and Java files]
+    │   └── day06.palindrome
+    			└── PalindromeChecker.java
     │
     ├── day07/
-    │   └── [Day 7 package and Java files]
+    │   └── day07.primeanalysis
+    			└── PrimeNumberAnalysis.java
     │
     ├── day08/
-    │   └── [Day 8 package and Java files]
+    │   └── day08.atm
+    			└── ATMSimulation.java
     │
     ├── day09/
-    │   └── [Day 9 package and Java files]
+    │   └── day09.bankingaccount
+    			└── BankAccount.java
     │
     ├── day10/
-    │   └── [Day 10 package and Java files]
+    │   └── day10.constructoroverloading
+    			└── Student.java
     │
     ├── day11/
     │   └── employeemanagement/
@@ -1131,17 +1136,17 @@ Veda-Technology-Internship/
     │			├── Subject.java
     │			├── Grade.java
     │			└── Main.java
-    └── day35/
-        └── businessservicemanagement/
-            ├── Program.java
-            ├── TrainingProgram.java
-            ├── InternshipProgram.java
-            ├── Customer.java
-            ├── Inquiry.java
-            ├── Service.java
-            ├── ServiceRequest.java
-            ├── BusinessManagementSystem.java
-            └── Main.java
+    └── day35-38/
+       └── businessservicemanagement/
+           ├── Program.java
+           ├── TrainingProgram.java
+           ├── InternshipProgram.java
+           ├── Service.java
+           ├── Customer.java
+           ├── Inquiry.java
+           ├── ServiceRequest.java
+           ├── BusinessManagementSystem.java
+           └── Main.java
             ```
 
     
