@@ -821,7 +821,7 @@ A Java-based Employee Analytics System that uses the Stream API to analyze emplo
 - averagingDouble()
 - Map and List
 
-## Day 32 – Student Grade Management System
+## Day 32 Project: 1 – Student Grade Management System
 
 ### Project Description
 A Java-based console application to manage student records, update student details, calculate grades, and analyze student performance.
@@ -890,7 +890,7 @@ This project is a menu-driven Student Grade Management System developed using Ja
 - Exception Handling
 - Menu-Driven Programming
 
-# Day 35-38 Business & Service Management System
+# Day 35-38 Project: 2 - Business & Service Management System
 
 ## Project Overview
 The Business & Service Management System is a menu-driven Java application developed to manage business programs, services, customers, inquiries, and service requests.
@@ -961,6 +961,23 @@ This project was developed over four days as part of the Veda Technology Interns
 - Modular Programming
 - Menu-Driven Application
 
+## Day 40 Project: 3 – Personal Expense & Budget Management System
+
+### Project Overview
+Developed a Java-based Personal Expense & Budget Management System to manage daily expenses, categories, and monthly budgets.
+
+### Features and Concepts Practiced
+- Add, display, search, update, and delete expenses.
+- Manage predefined expense categories.
+- Set and track monthly budgets.
+- Generate monthly expense summaries.
+- Generate category-wise expense reports.
+- Calculate total expenses and remaining budget.
+- Save expense records in `expenses.txt`.
+- Save monthly budget records in `budgets.txt`.
+- Load previously saved data when the application restarts.
+- Used OOP, ArrayList, LocalDate, YearMonth, Exception Handling, and File Handling.
+
 ## Technologies Used
 
 - Java
@@ -977,7 +994,8 @@ Veda-Technology-Internship/
 │
 ├── README.md
 ├── .gitignore
-│
+├── expenses.txt
+├── budgets.txt
 ├── sample_data.txt
 ├── application.log
 ├── log_report.txt
@@ -1136,17 +1154,24 @@ Veda-Technology-Internship/
     │			├── Subject.java
     │			├── Grade.java
     │			└── Main.java
-    └── day35-38/
-       └── businessservicemanagement/
-           ├── Program.java
-           ├── TrainingProgram.java
-           ├── InternshipProgram.java
-           ├── Service.java
-           ├── Customer.java
-           ├── Inquiry.java
-           ├── ServiceRequest.java
-           ├── BusinessManagementSystem.java
-           └── Main.java
+    ├── day35-38/
+    │   └── businessservicemanagement/
+    │       ├── Program.java
+    │       ├── TrainingProgram.java
+    │       ├── InternshipProgram.java
+    │       ├── Service.java
+    │       ├── Customer.java
+    │       ├── Inquiry.java
+    │       ├── ServiceRequest.java
+    │       ├── BusinessManagementSystem.java
+    │       └── Main.java
+    │       └── day40/
+    └── expensemanagement/
+        ├── Expense.java
+        ├── Category.java
+        ├── Budget.java
+        ├── ExpenseManager.java
+        └── Main.java
             ```
 
     
